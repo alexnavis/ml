@@ -1,0 +1,50 @@
+{
+  "name": "@digifi-los/ml",
+  "version": "0.0.1",
+  "description": "dynamic ml evaluation module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec --recursive"
+  },
+  "author": "DigiFi",
+  "dependencies": {
+    "@digifi-los/comparison": "^0.0.2",
+    "aws-sdk": "^2.263.1",
+    "mathjs": "^6.0.3",
+    "periodicjs": "^10.70.55"
+  },
+  "devDependencies": {
+    "@digifi/ml-cart": "^1.0.8",
+    "ml-matrix": "^5.2.1",
+    "ml-random-forest": "^1.0.3",
+    "browserify": "~6.3.2",
+    "chai": "^3.5.0",
+    "chai-spies": "^0.7.1",
+    "deasync": "^0.1.13",
+    "eslint": "^3.18.0",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-less": "^1.3.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-coveralls": "^1.0.1",
+    "grunt-jsbeautifier": "^0.2.12",
+    "grunt-jsdoc": "^2.0.0",
+    "grunt-mocha-cov": "^0.4.0",
+    "grunt-mocha-istanbul": "^4.0.2",
+    "grunt-newer": "^1.2.0",
+    "grunt-simple-mocha": ">=0.4.0",
+    "grunt-templater": ">=0.0.6",
+    "istanbul": "^0.4.3",
+    "jsdoc": "3.3.0-alpha10",
+    "json-2-csv": "^2.0.22",
+    "mocha": "^2.5.3",
+    "promisie": "^1.6.1",
+    "uglify-js": "^2.6.2",
+    "uglifyify": "^3.0.1"
+  }
+}

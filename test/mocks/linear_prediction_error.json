@@ -1,0 +1,8 @@
+{
+  "Prediction": {
+    "details": {
+      "PredictiveModelType": "REGRESSION"
+    },
+    "predictedLabel": "REGRESSIONLABEL"
+  }
+}

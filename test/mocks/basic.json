@@ -1,0 +1,57 @@
+{
+    "name" : "employee_hiring_model_2",
+    "display_name" : "Employee Hiring Model",
+    "type" : "artificialintelligence",
+    "real_time_prediction_id" : "5b2285d863766131a6e2a580_1528989144124",
+    "real_time_endpoint" : "https://realtime.machinelearning.us-east-1.amazonaws.com",
+    "model_type" : "binary",
+    "mlmodel_id" : "5b2285d863766131a6e2a580",
+    "conditions" : [],
+    "inputs" : [ 
+        {
+            "model_variable_name" : "years_employed",
+            "system_variable_id" : "years_employed",
+            "data_type" : "Number",
+            "input_type" : "variable"
+        }, 
+        {
+            "model_variable_name" : "average_annual_income",
+            "system_variable_id" : "annual_income",
+            "data_type" : "Number",
+            "input_type" : "variable"
+        }, 
+        {
+            "model_variable_name" : "salary_requirement",
+            "system_variable_id" : "salary_requirement",
+            "data_type" : "Number",
+            "input_type" : "variable"
+        }, 
+        {
+            "model_variable_name" : "technical_score",
+            "system_variable_id" : "employment_technical_score",
+            "data_type" : "Number",
+            "input_type" : "variable"
+        }, 
+        {
+            "model_variable_name" : "age",
+            "system_variable_id" : "age",
+            "data_type" : "Number",
+            "input_type" : "variable"
+        }, 
+        {
+            "model_variable_name" : "relocation_required",
+            "system_variable_id" : "relocation_required",
+            "data_type" : "Boolean",
+            "input_type" : "variable"
+        }, 
+        {
+            "model_variable_name" : "salary_offered",
+            "system_variable_id" : "salary_offered",
+            "data_type" : "Number",
+            "input_type" : "variable"
+        }
+    ],
+    "outputs" : null,
+    "ruleset" : [],
+    "output_variable" : "ai_output"
+}

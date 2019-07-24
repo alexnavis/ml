@@ -1,0 +1,11 @@
+{
+  "Prediction": {
+    "details": {
+      "PredictiveModelType": "BINARY"
+    },
+    "predictedScores": {
+      "BINARYLABEL": 0.184
+    },
+    "predictedLabel": "BINARYLABEL"
+  }
+}

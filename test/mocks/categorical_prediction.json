@@ -1,0 +1,8 @@
+{
+  "Prediction": {
+    "details": {
+      "PredictiveModelType": "MULTICLASS"
+    },
+    "predictedLabel": "High Fico"
+  }
+}

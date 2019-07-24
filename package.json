@@ -10,8 +10,7 @@
   "dependencies": {
     "@digifi-los/comparison": "^0.0.2",
     "aws-sdk": "^2.263.1",
-    "mathjs": "^6.0.3",
-    "periodicjs": "^10.70.55"
+    "mathjs": "^6.0.3"
   },
   "devDependencies": {
     "@digifi/ml-cart": "^1.0.8",
